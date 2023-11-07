@@ -22,7 +22,6 @@ export class UserUpdateRepository {
   }
 
   async findMany({ id, sortOrder, page, limit }) {
-    console.log(id)
     const take =
       limit === 0
         ? undefined
