@@ -25,6 +25,7 @@ node_modules
 !.vscode/extensions.json
 
 # misc
+.env
 /.sass-cache
 /connect.lock
 /coverage
@@ -39,4 +40,3 @@ testem.log
 Thumbs.db
 
 .nx/cache
-.env
